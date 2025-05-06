@@ -1,7 +1,7 @@
 :root {
     --main-font: "Centra No2", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    --button-color:#0e3672;
-    --hover-link:#1668e3;
+    --button-color:rgb(14, 110, 255);
+    --hover-link:rgba(16, 90, 201, 0.952);
     --mid-font:"Lardent Pro Slab", Georgia, Times, "Times New Roman", serif;
 }
 *{
@@ -10,7 +10,6 @@
 }
 header {
     height: 100vh;
-    width: 100vw;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1)),
                 url('./image/bg.jpg') no-repeat center center / cover;
 }
@@ -73,27 +72,32 @@ header .mid-term h2{
     font-family: var(--mid-font);
 }
 header .mid-term form{
-    background-color: white;
+    background-color: #f7f7f8;;
     border-radius: 12px;
-    padding: 12px;
+    padding: 6px;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-content: center;
     align-items: center;
+
+    margin-top: 21px;
 }
 .input-container {
     position: relative;
-  
 }
 
 .input-container input {
-    width: 67%;
+    width: 100%;
     padding: 25px 20px 10px 40px;
     border: 2px solid #ccc;
-    border-radius: 5px;
+    border-radius: 10px;
     font-size: 16px;
 }
-
+.input-container input::placeholder{
+    font-family: var(--main-font);
+    font-size: 15px;
+    font-weight: 600;
+}
 .user-icon {
     position: absolute;
     left: 10px;
@@ -113,6 +117,62 @@ header .mid-term form{
 }
 .mid-term button{
     padding: 18px;
-    border-radius: 30%;
-    background-color: rgb(6, 85, 255);
+    border-radius: 40%;
+    background-color: rgb(14, 110, 255);
+    color: white;
+    font-family: var(--main-font);
+    font-weight: 500;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.mid-term button:hover{
+    background-color: rgba(16, 90, 201, 0.952);
+    color: white;
+}
+
+.container1{
+    display: flex;
+    background-color: #191e35;
+    width: 70%;
+    margin-top: 22px;
+    border-radius: 20px;
+    margin-left: 150px;
+    padding: 0 12px;
+}
+.container1 .message{
+    padding: 12px;
+    background-color: aquamarine;
+    border-radius: 50%;
+    margin: 12px;
+}
+.container1 h2{
+    align-items: center;
+    color: white;
+    font-family: var(--main-font);
+    font-size: 18px;
+    margin-top: 25px;
+}
+.container1 button{
+    background-color: var(--button-color);
+    color: white;
+    height: 42px;
+    width: 10%;
+    padding: 1px;
+    margin-top: 15px;
+    margin-left: 32px;
+    font-size: 12px;
+    font-weight: 700;
+    border-radius: 51px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.container1 button:hover{
+    background-color: var(--hover-link);
+}
+.cantainer2{
+    margin-left: 150px;
 }
