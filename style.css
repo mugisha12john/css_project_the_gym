@@ -186,6 +186,9 @@ header .mid-term form{
     height: 311px;
     background-color: #1668e3;
     border-radius:21px ;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
 }
 .img-scroll{
     display: flex;
@@ -193,12 +196,11 @@ header .mid-term form{
     align-items: center;
     gap: 6px;
     margin-top: 40px;
-    position: relative;
 }
-.img-scroll .h5{
-    position: absolute;
-    left: 25px;
-    top: 80%;
+.img-scroll h4{
+    color: white;
+    margin-bottom: 12px;
+    font-family: var(--main-font);
 }
 .cantainer2 h2{
     font-size: 32px;
@@ -296,6 +298,9 @@ header .mid-term form{
     gap: 21px;
     
 }
+.desc-card p,strong{
+    margin: 11px;
+}
 .desc-detail{
     width: 550px;
     height: 350px;
@@ -303,3 +308,133 @@ header .mid-term form{
     background-color: #191e3b;
 }
 
+/* working on box div */
+.box{
+    
+    width: 95%;
+    margin-top: 65px;
+    font-family: var(--main-font);
+    border: 1px solid #888;
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;
+}
+.box .box-text{
+    width: 30%;
+}
+.box .box-img{
+    width: 200px;
+    height: 200px;
+    background-color: #1668e3;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+.box .box-img h4{
+    color: white;
+    margin-bottom: 12px;
+    font-family: var(--main-font);
+}
+/* after box stlye for icon */
+.all-icon{
+    width: 95%;
+    margin-top: 65px;
+    font-family: var(--main-font);
+    padding: 21px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 21px;  
+}
+.all-icon-card h2{
+    font-size: 15px;
+    font-weight: 700;
+    color: #191e3b;
+}
+.user-icons{
+    font-size: 41px;
+}
+
+/* section with bg */
+section{
+    width: 80%;
+    height: 400px;
+    margin-top: 65px;
+    font-family: var(--main-font);
+    padding: 21px;
+    margin-left: 95px;
+    border-radius: 21px;
+    background-color: #191e35;
+}
+.section-item{
+    background-color: white;
+    width: 350px;
+    height: 320px;
+    margin: 25px;
+    padding: 15px;
+    border-radius: 21px;
+}
+.section-item h1{
+    font-size: 35px;
+    color: #191e3b;
+}
+.section-item small{
+    font-size: 16px;
+}
+.section-item button{
+    padding: 12px;
+    width: 311px;
+    background-color: var(--button-color);
+    color: white;
+    font-size: 16px;
+    border-radius: 21px;
+    margin-top: 21px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+.section-item button:hover{
+    background-color: var(--hover-link);
+}
+/* summary  */
+summary{
+    width: 80%;
+    margin-top: 15px;
+    font-family: var(--main-font);
+    padding: 21px;
+    margin-left: 95px;
+    border-radius: 21px;
+}
+summary h2{
+    font-size: 25px;
+    color: #191e3b;
+}
+summary p{
+    font-weight: 500;
+    font-size: 16px;
+    color: #191e3b;
+}
+aside{
+    width: 80%;
+    margin-top: 15px;
+    font-family: var(--main-font);
+    padding: 21px;
+    margin-left: 95px;
+    border-radius: 21px; 
+}
+aside h2{
+    font-size: 25px;
+    color: #191e3b;
+}
+aside select{
+    width: 100%;
+    padding: 11px;
+    border: none;
+    font-size: 20px;
+    color: #191e3b;
+    font-weight: 500;
+    cursor: pointer;
+}
