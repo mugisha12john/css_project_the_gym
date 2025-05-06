@@ -79,7 +79,8 @@ header .mid-term form{
     justify-content: space-around;
     align-content: center;
     align-items: center;
-
+    position: sticky;
+    top: 0;
     margin-top: 21px;
 }
 .input-container {
@@ -136,10 +137,10 @@ header .mid-term form{
 .container1{
     display: flex;
     background-color: #191e35;
-    width: 70%;
+    width: 84%;
     margin-top: 22px;
     border-radius: 20px;
-    margin-left: 150px;
+    margin-left: 110px;
     padding: 0 12px;
 }
 .container1 .message{
@@ -162,7 +163,7 @@ header .mid-term form{
     width: 10%;
     padding: 1px;
     margin-top: 15px;
-    margin-left: 32px;
+    margin-left: 23%;
     font-size: 12px;
     font-weight: 700;
     border-radius: 51px;
@@ -174,5 +175,33 @@ header .mid-term form{
     background-color: var(--hover-link);
 }
 .cantainer2{
-    margin-left: 150px;
+    margin-left: 110px;
+    width: 85%;
+    margin-top: 25px;
+}
+.mg{
+    width: 311px;
+    height: 311px;
+    background-color: #1668e3;
+    border-radius:21px ;
+}
+.img-scroll{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6px;
+    margin-top: 40px;
+    position: relative;
+}
+.img-scroll .h5{
+    position: absolute;
+    left: 25px;
+    top: 80%;
+}
+.cantainer2 h2{
+    font-size: 34px;
+    font-family: var(--main-font);
+    font-weight: 400;
+    color: #888;
+
 }
