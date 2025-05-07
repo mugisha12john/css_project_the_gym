@@ -11,7 +11,7 @@
 header {
     height: 100vh;
     background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1)),
-                url('./image/bg.jpg') no-repeat center center / cover;
+                url('./image/bgimage.jpeg') no-repeat center center / cover;
 }
 
 header nav{
@@ -183,12 +183,26 @@ header .mid-term form{
 }
 .mg{
     width: 311px;
-    height: 311px;
+    background: linear-gradient(121deg,rgba(0, 0, 0, 0.6), rgba(255, 255, 255, 0.1)),
+    url('./image/4.jpeg') no-repeat center center / cover;
+    height: 270px;
     background-color: #1668e3;
     border-radius:21px ;
     display: flex;
     justify-content: center;
     align-items: flex-end;
+}
+#mg1{
+    background: url('./image/11.jpg') no-repeat center center / cover;
+}
+#mg2{
+    background: url('./image/3.jpg') no-repeat center center / cover;
+}
+#mg3{
+    background: url('./image/2.jpg') no-repeat center center / cover;
+}
+#mg4{
+    background: url('./image/13.jpeg') no-repeat center center / cover;
 }
 .img-scroll{
     display: flex;
@@ -248,7 +262,19 @@ header .mid-term form{
     width: auto;
     height: 211px;
     border-radius:21px;
-    background-color: #e3a216;
+     background: url('./image/lajora.jpg') no-repeat center center / cover;
+}
+#week-img1{
+     background: url('./image/seychelles.jpg') no-repeat center center / cover;
+}
+#week-img2{
+     background: url('./image/sea.jpg') no-repeat center center / cover;
+}
+#week-img3{
+     background: url('./image/13.jpeg') no-repeat center center / cover;
+}
+#week-img4{
+     background: url('./image/4.jpeg') no-repeat center center / cover;
 }
 .week-details{
     margin-top: 15px;
@@ -285,7 +311,15 @@ header .mid-term form{
     color: #191e3b;
     font-size: 28px;
 }
-
+#week4{
+     background: url('./image/dave-g-7X6QtKZi898-unsplash.jpg') no-repeat center center / cover;
+}
+#week3{
+     background: url('./image/seychelles.jpg') no-repeat center center / cover;
+}
+#week1{
+     background: url('./image/sea.jpg') no-repeat center center / cover;
+}
 /* desc for 2 images only */
 .desc{
     margin-left: 110px;
@@ -305,9 +339,13 @@ header .mid-term form{
     width: 550px;
     height: 350px;
     border-radius:21px;
-    background-color: #191e3b;
 }
-
+#desc{
+     background: url('./image/13.jpeg') no-repeat center center / cover;
+}
+#desc1{
+     background: url('./image/2.jpg') no-repeat center center / cover;
+}
 /* working on box div */
 .box{
     
@@ -327,7 +365,6 @@ header .mid-term form{
 .box .box-img{
     width: 200px;
     height: 200px;
-    background-color: #1668e3;
     border-radius: 20px;
     display: flex;
     justify-content: center;
@@ -337,6 +374,18 @@ header .mid-term form{
     color: white;
     margin-bottom: 12px;
     font-family: var(--main-font);
+}
+#box{
+     background: url('./image/2.jpg') no-repeat center center / cover;
+}
+#box1{
+     background: url('./image/11.jpg') no-repeat center center / cover;
+}
+#box2{
+     background: url('./image/3.jpg') no-repeat center center / cover;
+}
+#box3{
+     background: url('./image/1.jpg') no-repeat center center / cover;
 }
 /* after box stlye for icon */
 .all-icon{
@@ -367,7 +416,7 @@ section{
     padding: 21px;
     margin-left: 95px;
     border-radius: 21px;
-    background-color: #191e35;
+    background: url('./image/girl.jpeg') no-repeat center center / cover;
 }
 .section-item{
     background-color: white;
